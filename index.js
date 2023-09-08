@@ -32,6 +32,9 @@ const sendMail = (mailData) => {
     });
 };
 
+app.get("/test", (req, res)=>{
+    res.send("<h1>Api is live and working fine...</h1>")
+})
 app.post("/contact", async (req, res) => {
   try {
     const payload = {
