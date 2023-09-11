@@ -38,7 +38,7 @@ app.get("/test", (req, res)=>{
 app.post("/contact", async (req, res) => {
   try {
     const payload = {
-      to: "pithwalahussain@gmail.com",
+      to: "tronixtechit07@gmail.com",
       subject: "Client Inquiry....",
       html: `<html>
             <body>
